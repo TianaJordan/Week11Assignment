@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 11</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="bg-dark">
+
+    <div class="container text-primary text-center p-4">
+        <h1>Tic-Tac-Toe</h1>
+    </div>
+
+<!-- ALERTS -->
+    <div id="alert-container" class="container text-center m-auto">
+        <div id="alertPlayer1" class="alert alert-primary text-center" role="alert">
+        Player 1's Turn (X)
+        </div>
+
+        <div id="alertPlayer2" class="alert alert-primary text-center" role="alert">
+        Player 2's Turn (O)
+        </div>
+
+        <div id="alertWinner" class="alert alert-primary text-center" role="alert">
+        </div>
+
+        <div id="alertDraw" class="alert alert-primary text-center" role="alert">
+        GAME OVER -- DRAW!
+        </div>
+    </div>
+
+<!-- GRID -->
+    <div class="container p-4 g-0 text-center ">
+        <div id="grid" class="container m-auto p-0 text-white fs-1 border border-primary">
+            <div class="row g-0">
+                <div id="cell1" class="cell col border border-primary"></div>
+                <div id="cell2" class="cell col border border-primary"></div>
+                <div id="cell3" class="cell col border border-primary"></div>
+            </div>
+            <div class="row g-0">
+                <div id="cell4" class="cell col border border-primary"></div>
+                <div id="cell5" class="cell col border border-primary"></div>
+                <div id="cell6" class="cell col border border-primary"></div>
+            </div>
+            <div class="row g-0">
+                <div id="cell7" class="cell col border border-primary"></div>
+                <div id="cell8" class="cell col border border-primary"></div>
+                <div id="cell9" class="cell col border border-primary"></div>
+            </div>
+        </div>
+    </div>
+
+<!-- BUTTONS -->
+    <div class="container p-4 text-center">
+        <button id="startBtn" type="button" class="btn btn-outline-primary">START</button>
+        <button id="resetBtn" type="button" class="btn btn-outline-light">CLEAR</button>
+    </div>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>

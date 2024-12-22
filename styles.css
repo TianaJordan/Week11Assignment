@@ -1,0 +1,12 @@
+#grid {
+    max-width: 400px;
+}
+
+.cell {
+    min-height: 100px;
+}
+
+#alert-container {
+    min-height: 75px;
+    max-width: 400px;
+}
